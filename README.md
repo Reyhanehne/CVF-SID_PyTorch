@@ -25,6 +25,6 @@ cd CVF-SID_PyTorch
 ### Reults of SIDD validation dataset
 
 ### Pretrained model
-Download \[[`config.json`]()\] and \[[`checkpoint-epoch#.pth`]()\] from the links and save them in `models/CVF_SID/` folder.
+Download \[[`config.json`]()\] and \[[`checkpoint-epoch#.pth`]()\] from the links and save them in `models/CVF_SID/SIDD_Val/` folder.
 ### NOTE: The pretrained model is updated at March. 9th 2022. 
 
