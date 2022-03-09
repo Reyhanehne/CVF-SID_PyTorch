@@ -1,0 +1,58 @@
+{
+    "name": "CVF_SID",
+    "n_gpu": 1,
+    "arch": {
+        "type": "CVF_model",
+        "args": {}
+    },
+    "data_loader": {
+        "type": "DataLoader",
+        "args": {
+            "data_dir": "../data/SIDD_Small_sRGB_Only/",
+            "batch_size": 64,
+            "shuffle": true,
+            "num_workers": 12,
+            "task": "train"
+        }
+    },
+    "test_data_loader": {
+        "type": "DataLoader",
+        "args": {
+            "data_dir": "../data/SIDD_Small_sRGB_Only/",
+            "batch_size": 10,
+            "shuffle": false,
+            "num_workers": 6,
+            "task": "test"
+        }
+    },
+    "optimizer": {
+        "type": "Adam",
+        "args": {
+            "lr": 0.0001,
+            "weight_decay": 1e-09,
+            "amsgrad": true
+        }
+    },
+    "loss": ["loss_main",
+             "loss_aug"],
+    "metrics": [
+        "psnr",
+        "ssim"
+    ],
+    "lr_scheduler": {
+        "type": "StepLR",
+        "args": {
+            "step_size": 10,
+            "gamma": 0.99
+        }
+    },
+    "trainer": {
+        "epochs": 500,
+        "save_dir": "../",
+        "save_period": 10,
+        "verbosity": 2,
+        "monitor": "min Total_loss",
+        "early_stop": 5000,
+        "tensorboard": true
+    }
+}
