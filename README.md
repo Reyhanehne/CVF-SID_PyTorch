@@ -29,3 +29,14 @@ cd CVF-SID_PyTorch
 Download \[[`config.json`]()\] and \[[`checkpoint-epoch#.pth`]()\] from the links and save them in `models/CVF_SID/SIDD_Val/` folder.
 #### NOTE: The pretrained model is updated at March. 9th 2022. 
 
+You can now go to src folder and test our CVF-SID by:
+```
+python test.py --device 0 --config ../models/CVF_SID/SIDD_Val/config.json --resume ../models/CVF_SID/SIDD_Val/model_best.pth
+```
+
+or you can train it by yourself as follows:
+```
+python train.py --device 0 --config config_SIDD_Val.json --tag SIDD_Val
+```
+
+
