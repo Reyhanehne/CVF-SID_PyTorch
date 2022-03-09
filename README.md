@@ -2,7 +2,7 @@
 
 This repository contains the official code to reproduce the results from the paper:
 
-**CVF-SID: Cyclic multi-Variate Function \textit{for}\\ Self-Supervised Image Denoising by Disentangling  Noise from Image**
+**CVF-SID: Cyclic multi-Variate Function for Self-Supervised Image Denoising by Disentangling  Noise from Image**
 
 \[[arXiv]()\] \[[presentation]()\] 
 
