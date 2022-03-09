@@ -54,6 +54,18 @@ class Trainer(BaseTrainer):
 
         self.train_metrics = MetricTracker('Total_loss', writer=self.writer)
         self.test_metrics = MetricTracker('psnr', 'ssim', writer=self.writer)
+        if os.path.isdir('../output')==False:
+           os.makedirs('../output/')
+        if os.path.isdir('../output/C')==False:
+           os.makedirs('../output/C/')
+        if os.path.isdir('../output/GT')==False:
+           os.makedirs('../output/GT/')
+        if os.path.isdir('../output/N_i')==False:
+           os.makedirs('../output/N_i/')
+        if os.path.isdir('../output/N_d')==False:
+           os.makedirs('../output/N_d/')
+        if os.path.isdir('../output/I')==False:
+           os.makedirs('../output/I/')
 
     def _train_epoch(self, epoch):
 
