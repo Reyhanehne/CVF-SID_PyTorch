@@ -23,7 +23,7 @@ cd CVF-SID_PyTorch
 
 
 ## Expriments
-### Reults of SIDD validation dataset
+### Reults of the SIDD validation dataset
 
 #### Pretrained model
 Download `config.json` and `model_best.pth` from this [link](https://drive.google.com/drive/folders/1flr_Oh_f1_0SO9qX2jBIGJBenYJ73-D0?usp=sharing) and save them in `models/CVF_SID/SIDD_Val/` folder.
