@@ -40,7 +40,7 @@ python train.py --device 0 --config config_SIDD_Val.json --tag SIDD_Val
 ```
 
 
-## Citation
+### Citation
 If you find our code or paper useful, please consider citing:
 ```
 @inproceedings{Neshatavar2022CVFSIDCM,
