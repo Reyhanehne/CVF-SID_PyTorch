@@ -42,3 +42,11 @@ python train.py --device 0 --config config_SIDD_Val.json --tag SIDD_Val
 
 ## Citation
 If you find our code or paper useful, please consider citing:
+```
+@inproceedings{Neshatavar2022CVFSIDCM,
+  title={CVF-SID: Cyclic multi-Variate Function for Self-Supervised Image Denoising by Disentangling Noise from Image},
+  author={Reyhaneh Neshatavar and Mohsen Yavartanoo and Sanghyun Son and Kyoung Mu Lee},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2022}
+}
+```
