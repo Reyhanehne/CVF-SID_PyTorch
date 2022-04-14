@@ -4,7 +4,7 @@ This repository contains the official code to reproduce the results from the pap
 
 **CVF-SID: Cyclic multi-Variate Function for Self-Supervised Image Denoising by Disentangling  Noise from Image**
 
-\[[arXiv]()\] \[[presentation]()\] 
+\[[arXiv](https://arxiv.org/abs/2203.13009)\] \[[presentation]()\] 
 
 
 ## Installation
@@ -24,6 +24,7 @@ cd CVF-SID_PyTorch
 
 ## Expriments
 ### Reults of the SIDD validation dataset
+Download 'Noisy sRGB data' and 'Ground-truth sRGB data' from the SIDD homepage and place them in 'data/SIDD_Small_sRGB_Only' folder.
 
 #### Pretrained model
 Download `config.json` and `model_best.pth` from this [link](https://drive.google.com/drive/folders/1flr_Oh_f1_0SO9qX2jBIGJBenYJ73-D0?usp=sharing) and save them in `models/CVF_SID/SIDD_Val/` folder.
