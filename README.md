@@ -24,7 +24,7 @@ cd CVF-SID_PyTorch
 
 ## Expriments
 ### Reults of the SIDD validation dataset
-To train and evaluate the model directly please visit [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/benchmark.php) website and download the original `Noisy sRGB data` and `Ground-truth sRGB data` from `SIDD Validation Data and Ground Truth` and place them in `data/SIDD_Small_sRGB_Only` folder.
+To train and evaluate the model directly please visit [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/benchmark.php) website or [Drive](https://drive.google.com/drive/folders/1cG6uCUZcBMzulkw6g9ImBOIxy_cLtiLo?usp=sharing) and download the original `Noisy sRGB data` and `Ground-truth sRGB data` from `SIDD Validation Data and Ground Truth` and place them in `data/SIDD_Small_sRGB_Only` folder.
 
 #### Pretrained model
 Download `config.json` and `model_best.pth` from this [link](https://drive.google.com/drive/folders/1flr_Oh_f1_0SO9qX2jBIGJBenYJ73-D0?usp=sharing) and save them in `models/CVF_SID/SIDD_Val/` folder.
