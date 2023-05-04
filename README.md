@@ -27,7 +27,7 @@ cd CVF-SID_PyTorch
 
 ## Expriments
 ### Reults of the SIDD validation dataset
-<p align="right">
+<p align="center">
 <img src="source/decomposition.png" width="40%"/> 
 </p>
 To train and evaluate the model directly please visit [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/benchmark.php) website or [Drive](https://drive.google.com/drive/folders/1cG6uCUZcBMzulkw6g9ImBOIxy_cLtiLo?usp=sharing) and download the original `Noisy sRGB data` and `Ground-truth sRGB data` from `SIDD Validation Data and Ground Truth` and place them in `data/SIDD_Small_sRGB_Only` folder.
