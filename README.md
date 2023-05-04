@@ -6,7 +6,7 @@ This repository contains the official code to reproduce the results from the pap
 
 \[[arXiv](https://arxiv.org/abs/2203.13009)\] \[[presentation]()\] 
 
-<p align="center">
+<p align="justify">
 <img src="source/CVF.png" width="50%"/>  <img src="source/framework.png" width="40%"/> 
 </p>
 
@@ -27,7 +27,7 @@ cd CVF-SID_PyTorch
 
 ## Expriments
 ### Reults of the SIDD validation dataset
-<p align="side">
+<p align="justify">
 <img src="source/decomposition.png" width="28.5%"/>  <img src="source/augmentation.png" width="60%"/> 
 </p>
 To train and evaluate the model directly please visit [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/benchmark.php) website or [Drive](https://drive.google.com/drive/folders/1cG6uCUZcBMzulkw6g9ImBOIxy_cLtiLo?usp=sharing) and download the original `Noisy sRGB data` and `Ground-truth sRGB data` from `SIDD Validation Data and Ground Truth` and place them in `data/SIDD_Small_sRGB_Only` folder.
