@@ -6,10 +6,12 @@ This repository contains the official code to reproduce the results from the pap
 
 \[[arXiv](https://arxiv.org/abs/2203.13009)\] \[[presentation]()\] 
 
-<p align="justify">
-<img src="source/CVF.png" width="50%"/>  <img src="source/framework.png" width="40%"/> 
+<p align="left">
+<img src="source/CVF.png" width="50%"/>  
 </p>
-
+<p align="right">
+<img src="source/framework.png" width="40%"/> 
+</p>  
 ## Installation
 Clone this repository into any place you want.
 ```
